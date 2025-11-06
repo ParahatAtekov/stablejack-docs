@@ -32,11 +32,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/your-repo/stablejack-docs/tree/main/',
+          editUrl: 'https://github.com/ParahatAtekov/stablejack-docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/your-repo/stablejack-docs/tree/main/',
+          editUrl: 'https://github.com/ParahatAtekov/stablejack-docs/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -63,7 +63,7 @@ const config: Config = {
         { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/ai-agent', label: 'AI Agent', position: 'right' },
         {
-          href: 'https://github.com/your-repo/stablejack-docs',
+          href: 'https://github.com/ParahatAtekov/stablejack-docs',
           label: 'GitHub',
           position: 'right',
         },
