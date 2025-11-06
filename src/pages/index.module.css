@@ -1,0 +1,53 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height for luxury feel */
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.logo {
+  width: 150px; /* Adjust size */
+  margin-bottom: 20px;
+}
+
+.rotatingImage {
+  width: 300px; /* Scale as needed */
+  animation: rotate 20s linear infinite; /* Slow rotation */
+  image-rendering: pixelated; /* For that retro pixel effect */
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.slogan {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #D6FE51; /* Neon green */
+  margin: 20px 0;
+  text-align: center;
+}
+
+.launchButton {
+  background-color: #D6FE51;
+  color: #000000;
+  padding: 15px 30px;
+  border-radius: 50px; /* Pill shape for modern */
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.launchButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #D6FE51; /* Neon glow */
+  color: #000000;
+}

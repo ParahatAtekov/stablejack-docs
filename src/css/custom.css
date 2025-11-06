@@ -1,0 +1,33 @@
+/* Global variables for easy theming */
+:root {
+  --ifm-color-primary: #D6FE51; /* Neon green */
+  --ifm-color-primary-dark: #2ECC11; /* Slightly darker for hovers */
+  --ifm-color-primary-darker: #28A80E;
+  --ifm-color-primary-darkest: #1F800A;
+  --ifm-color-primary-light: #4FFF27;
+  --ifm-color-primary-lighter: #65FF3D;
+  --ifm-color-primary-lightest: #7BFF53;
+
+  --ifm-background-color: #000000; /* Black */
+  --ifm-font-color-base: #FFFFFF; /* White text for contrast */
+  --ifm-navbar-background-color: #000000;
+  --ifm-footer-background-color: #000000;
+}
+
+/* Slick navigation styles */
+.navbar {
+  box-shadow: 0 4px 12px rgba(57, 255, 20, 0.1); /* Subtle neon glow shadow */
+  transition: all 0.3s ease; /* Smooth transitions */
+}
+
+.navbar__link {
+  color: var(--ifm-font-color-base);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar__link:hover {
+  color: var(--ifm-color-primary);
+}
+
+/* More styles incoming in later phases */
